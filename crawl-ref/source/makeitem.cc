@@ -1322,6 +1322,7 @@ bool is_high_tier_wand(int type)
 {
     switch (type)
     {
+    case WAND_ENSLAVEMENT:
     case WAND_CONFUSION:
     case WAND_PARALYSIS:
     case WAND_LIGHTNING:
